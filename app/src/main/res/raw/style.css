@@ -1,0 +1,167 @@
+
+
+div#navbar{
+    display: none !important;
+}
+
+body{
+    padding:0 !important;
+    margin: 0 !important;
+}
+
+section.highlighted{
+    display: none !important;
+}
+
+div.view-articulos-front-page div.view-header{
+    display: none !important;
+}
+
+aside.sidebar-second{
+    display: none !important;
+}
+
+div.content-bottom{
+    display: none !important;
+}
+
+footer.footer{
+    display: none !important;
+}
+
+img.img-responsive{
+    width: 100% !important;
+    height: 200px !important;
+}
+
+div#skip-link{
+    display: none !important;
+}
+
+/*div.article-image{
+    display: inline-block;
+    position: relative;
+}
+
+div.article-image:after{
+
+    content: '';
+    content:url(https://image.ibb.co/hSk61m/pico_trasgo.png);
+    transform: scale(.5) !important;
+    position: absolute !important;
+    z-index: 999 !important;
+    margin-top: -25px !important;
+}*/
+
+div.article-info:before{
+
+     content: '';
+         position: absolute;
+         margin-top: -20px;
+         width: 0;
+         height: 0;
+         border-left: 20px solid transparent;
+         border-right: 20px solid transparent;
+         left: 50%;
+         margin-left: -20px;
+         border-bottom: 20px solid white;
+         clear: both;
+}
+
+
+div.article-info{
+
+    font-weight: bold;
+    color: white !important;
+    background: linear-gradient(to top left, #2E9844, #49D782);
+    border-bottom: 4px solid white;
+
+}
+
+div.field-item span a{
+    font-size: 200%;
+    text-decoration: none;
+    color: white !important;
+    font-weight: 5000;
+}
+
+div.article-info div.field-antet-tulo div.field div.field-items div.field-item{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+div.article-info div.field-title div.field div.field-items div.field-item{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+div.article-info div.field-body div.field div.field-items div.field-item{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+div.posted-juego-info{
+    display: none !important;
+}
+
+div.view-footer{
+    display: none !important;
+}
+
+
+div.breadcrumbs{
+    display: none !important;
+}
+
+div.top-line-wrapper{
+    background: black !important;
+    color: white !important;
+    padding: 20px !important;
+}
+
+h1.node-title{
+    background: #40B556 !important;
+    margin-top: 0 !important;
+    font-size: 200%;
+    text-decoration: none;
+    color: white !important;
+    font-weight: 5000;
+    margin: 0 !important;
+    padding: 20px !important;
+}
+
+div.social-author-wrapper{
+    display: none !important;
+}
+
+div.sub-title{
+    margin: 0 !important;
+    background: #40B556 !important;
+    font-weight: bold;
+    color: white !important;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+div.create-date{
+    text-transform: lowercase;
+}
+
+div.view-mode-full div div.field-name-body{
+    padding: 20px !important;
+    border-bottom: 60px solid #40B556;
+}
+
+div.view-mode-full div div.field-name-body a{
+    color: #40B556 !important;
+}
+
+h1.black-title{
+    margin: 0 !important;
+    background: black !important;
+    color: white !important;
+    padding: 20px !important;
+}
